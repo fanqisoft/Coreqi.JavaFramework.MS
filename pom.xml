@@ -25,7 +25,7 @@
     </properties>
 
     <modules>
-
+        <module>coreqi_all</module>
     </modules>
 
     <dependencyManagement>
