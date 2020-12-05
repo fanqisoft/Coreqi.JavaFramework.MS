@@ -1,0 +1,3 @@
+这是全新的Coreqi.JavaFramework
+降低模块之间的耦合程度是优先考虑的
+在Java11上构建微服务应用
