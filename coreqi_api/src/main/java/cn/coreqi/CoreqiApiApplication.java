@@ -6,14 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@SpringBootApplication(scanBasePackages = {"cn.coreqi"})
+@SpringBootApplication(scanBasePackages = {"cn.coreqi.db", "cn.coreqi.core", "cn.coreqi.api"})
 @MapperScan("cn.coreqi.db.dao")
 @EnableTransactionManagement
 @EnableScheduling
-public class CoreqiAllApplication {
+public class CoreqiApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CoreqiAllApplication.class, args);
+        SpringApplication.run(CoreqiApiApplication.class, args);
     }
 
 }
